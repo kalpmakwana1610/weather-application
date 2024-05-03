@@ -1,0 +1,68 @@
+.tempr{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 10px;
+ }
+.tempr div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hightemp{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    /* margin-right: 80px; */
+}
+.lowtemp{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+.other{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainresult{
+    
+    /* padding: 15px; */
+   margin-top: 0px;
+    font-size: 20px;
+}
+.other{
+    gap: 50px;
+    margin-top: 30px;
+}
+.humidity{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+.wind{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+.other div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.temprature{
+color: rgb(10, 40, 10);
+margin-bottom: 10px;
+margin-top: 0px;
+
+}
+.name{
+    margin-top: 0px;
+}
